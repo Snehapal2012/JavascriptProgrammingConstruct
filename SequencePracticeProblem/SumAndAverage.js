@@ -1,0 +1,14 @@
+let num1=Math.floor(Math.random()*100)+10;
+console.log("Number1 : "+num1);
+let num2=Math.floor(Math.random()*100)+10;
+console.log("Number1 : "+num2);
+let num3=Math.floor(Math.random()*100)+10;
+console.log("Number1 : "+num3);
+let num4=Math.floor(Math.random()*100)+10;
+console.log("Number1 : "+num4);
+let num5=Math.floor(Math.random()*100)+10;
+console.log("Number1 : "+num5);
+let add=(num1+num2+num3+num4+num5);
+console.log("Addition of 5 numbers: "+add);
+let avg=(add/5);
+console.log("Average of 5 numbers: "+avg);
