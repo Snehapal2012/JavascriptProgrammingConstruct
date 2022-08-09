@@ -8,7 +8,7 @@ day=prompt("Enter day of the month: "); //day of month should be between 1 to 31
 month=prompt("Enter month of the year: "); //month in a year should be between 1 to 12
 
 console.log("Date: ",day,"/",month);
-if ((day >=20 && month>=3) && (day<=20 && month<=6) ){
+if ((day >=20 && month>=3) || (day<=20 && month<=6) ){
     console.log("True");
 }
 else console.log("False");
